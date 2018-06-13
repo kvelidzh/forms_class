@@ -1,0 +1,251 @@
+* {box-sizing: border-box;}
+
+html {
+    height: 100%;
+    font-size: 10px;
+   /*  overflow-y:hidden; */
+}
+ 
+body {
+    font: 400 1.3rem/1.5 "Montserrat", sans-serif;
+    min-height: 100%;
+    background-color: #1a1d21;
+    background-image: url(unsplash.png),
+                radial-gradient(circle farthest-side at top left, #555a5c, transparent);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-size: contain; 
+                
+}
+
+.form {
+    width: 340px;
+    background: #fff;
+   /*  height: 530px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.form_head {
+    background: #efe4aa;
+    padding: 25px;
+    /* height: 70px; */
+}
+
+.form_head:before,
+.form_head:after {
+    content:'';
+    display: table;
+    clear: both;
+}
+.form_body {
+     padding: 25px;
+     position: relative;
+     max-height: 600px;
+}
+
+.form_title,
+.form_price {
+    
+    height: 40px;
+    min-width: 30%;
+    /* max-width: 50%; */
+}
+
+.form_title {
+    width: 200px;
+    position: absolute;
+    top: 25px;
+    line-height: 0.2;
+    padding: 10px 0;
+}
+
+
+.form_titlex {
+    float: left;
+}
+
+.form_price {
+    float: right;
+   position: relative;
+}
+
+.form_price--font {
+     /* font-family: "Montserrat", sans-serif;
+    font-weight: 400; */
+    font-size: 3em;
+    color: #61726e;
+    text-align: center;
+    padding: 0 10px;
+    position: absolute;
+    top: -10px;
+    text-overflow: ellipsis
+;
+    
+}
+
+.form_title--font {
+    /* font-family: "Montserrat", sans-serif; */
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #61726e;
+    text-overflow: ellipsis;
+}
+
+.form_title--font--total {
+    /* font-weight: 400; */
+    font-size: 1em;
+    color: #61726e;
+    opacity: 0.7; 
+}
+
+.form_body--card {
+    width: 100%;
+    border: 1px solid #7fcddf;
+    height: 45px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #61726e;
+}
+
+.form_body--title {
+    color: #61726e;
+    opacity: 0.7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 40px 10px 0 0;
+    margin: 0;
+}
+
+.form_body--month {
+    border: 1px solid #b4c1c4;
+    width: 175px;
+    height: 45px;
+    position: relative;
+    
+}
+
+.selest--month {
+    border: 0;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    margin: 0 auto;
+   
+}
+
+.form_body--year {
+    border: 1px solid #b4c1c4;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    height: 45px;
+    width: 100px;
+    
+}
+
+.form_body--date {
+    position: relative;
+    
+}
+
+.selest--year {
+    border: 0;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+}
+
+/* .form_body--title {
+    position: relative;
+} */
+
+/* 
+ */
+
+/* .form_body--cvv {
+    width: 30%;
+    border: 1px solid #7fcddf;
+    height: 45px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #61726e;
+    position: absolute;
+    top: 60px;
+} */
+/* .cvv {
+    position: relative;
+} */
+
+.form_body--cvv {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #b4c1c4;
+}
+
+.form--info {
+   
+    color: #61726e;
+    opacity: 0.7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -1px;
+} 
+
+.btn {
+    padding: 40px 0 0 0;
+}
+
+.btn-class{
+    width: 100%;
+    height: 45px;
+ display: inline-block;
+ border: none;
+ color: #fff;
+ font-size: 20px;
+ padding: 0;
+ background-color: #25b167;
+ position: relative;
+  
+}
+
+.btn-class:hover, 
+.btn-class:active{
+ color: #61726e;
+ background-color: #efe4aa;
+ transition: all .4s ease;
+ 
+}
+.btn-class-info {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    position: absolute;
+    left: 120px;
+    padding: 8px;
+    }
+
+    .reset {
+        padding: 25px 0 0 0;
+        display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+.reset__all {
+    border: none;
+    background: transparent;
+    color: #61726e;
+    opacity: 0.7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
